@@ -16,6 +16,12 @@ module.exports = {
         title: "Number enum",
         enum: [1, 2, 3],
       },
+      multiSelect: {
+        type: "number",
+        title: "Muti Select",
+        multiple: true,
+        enum: [1, 2, 3],
+      },
       numberEnumRadio: {
         type: "number",
         title: "Number enum",

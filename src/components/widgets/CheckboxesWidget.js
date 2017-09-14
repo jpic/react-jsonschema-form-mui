@@ -27,12 +27,11 @@ function CheckboxesWidget(props) {
           const checkbox = (
             <span>
               <Checkbox
-                type="checkbox"
                 id={`${id}_${index}`}
                 checked={checked}
                 disabled={disabled || readonly}
                 autoFocus={autofocus && index === 0}
-                onChange={event => {
+                onCheck={event => {
                   const all = enumOptions.map(({ value }) => value);
                   if (event.target.checked) {
                     onChange(selectValue(option.value, value, all));
