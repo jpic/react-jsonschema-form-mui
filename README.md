@@ -1,6 +1,18 @@
-react-jsonschema-form
+react-jsonschema-form-mui
 =====================
 
+Replaced Bootstrap with Material UI Components
+Using Material UI: http://www.material-ui.com/
+
+=====================
+
+Components Changed:
+1. TextBox
+2. SelectField
+3. RadioButton
+4. CheckBox
+
+=====================
 [![Build Status](https://travis-ci.org/mozilla-services/react-jsonschema-form.svg)](https://travis-ci.org/mozilla-services/react-jsonschema-form)
 
 A simple [React](http://facebook.github.io/react/) component capable of building HTML forms out of a [JSON schema](http://jsonschema.net/) and using [Bootstrap](http://getbootstrap.com/) semantics by default.
